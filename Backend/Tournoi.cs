@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace GestionTournoi.Backend
 {
-    class Tournoi
+    public class Tournoi
     {
+        public string NomTournoi { get; set; }
+        public string NbJoueurs { get; set; }
+
+        private List<Equipe> _equipes { get; set; }
+        private List<Joueur> joueurs { get; set; }
+
+
+
     }
 }
