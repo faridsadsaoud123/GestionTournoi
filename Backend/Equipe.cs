@@ -13,5 +13,18 @@ namespace GestionTournoi.Backend
         public Boolean IsReady { get; set; }
 
         private List<Joueur> _joueurs { get; set; }
+
+        public Equipe(int id, string nom)
+        {
+            this.id = id;
+            this.NomEquipe = nom;
+        }
+        public string GetNomEquipe() { 
+        return this.NomEquipe;
+        }
+        public List<Joueur> GetJoueurs()
+        {
+            return this._joueurs;
+        }
     }
 }

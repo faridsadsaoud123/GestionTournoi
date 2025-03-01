@@ -10,5 +10,16 @@ namespace GestionTournoi.Backend
     {
         private int Id { get; set; }
         private string Pseudo { get; set; }
+
+        public Joueur(int id,string pseudo)
+        {
+            this.Id = id;
+            this.Pseudo = pseudo;
+        }
+        public string GetPseudo()
+        {
+            return this.Pseudo;
+        }
+        
     }
 }
