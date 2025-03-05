@@ -8,7 +8,7 @@ namespace GestionTournoi.Backend
 {
     public class Joueur
     {
-        private int Id { get; set; }
+        public int Id { get; set; }
         private string Pseudo { get; set; }
 
         public Joueur(int id,string pseudo)
@@ -20,6 +20,15 @@ namespace GestionTournoi.Backend
         {
             return this.Pseudo;
         }
-        
+
+
+
+        public string DisplayJoueur
+        {
+            get
+            {
+                return Id + " : " + Pseudo;
+            }
+        }
     }
 }

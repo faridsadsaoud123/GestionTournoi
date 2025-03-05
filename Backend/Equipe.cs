@@ -8,11 +8,12 @@ namespace GestionTournoi.Backend
 {
     public class Equipe
     {
-        private int id { get; set; }
+        public int id { get; set; }
         private string NomEquipe { get; set; }
         public Boolean IsReady { get; set; }
 
-        private List<Joueur> _joueurs { get; set; }
+        private List<Joueur> _joueurs { get; set; } = new List<Joueur>();
+
 
         public Equipe(int id, string nom)
         {
@@ -24,7 +25,15 @@ namespace GestionTournoi.Backend
         }
         public List<Joueur> GetJoueurs()
         {
-            return this._joueurs;
+            return this._joueurs ; // Retourne une liste vide si _joueurs est null
         }
+        public string DisplayEquipe
+        {
+            get
+            {
+                return id + " : " + NomEquipe;
+            }
+        }
+
     }
 }

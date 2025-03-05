@@ -1,3 +1,5 @@
+using GestionTournoi.Backend;
+
 namespace GestionTournoi
 {
     internal static class Program
@@ -10,7 +12,12 @@ namespace GestionTournoi
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+            
             ApplicationConfiguration.Initialize();
+
+            // Chargement de données par défaut
+            //Seed.SeedData();
+            // Lancement du frontend
             Application.Run(new Form1());
         }
     }
