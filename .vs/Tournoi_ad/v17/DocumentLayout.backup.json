@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|c:\\users\\hp\\source\\repos\\tournoi_ad\\frontend\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|solutionrelative:frontend\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|c:\\users\\hp\\source\\repos\\tournoi_ad\\backend\\chronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|solutionrelative:backend\\chronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|c:\\users\\hp\\source\\repos\\tournoi_ad\\frontend\\joueurform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|solutionrelative:frontend\\joueurform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|c:\\users\\hp\\source\\repos\\tournoi_ad\\backend\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|solutionrelative:backend\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|c:\\users\\hp\\source\\repos\\tournoi_ad\\backend\\tournoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|solutionrelative:backend\\tournoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|c:\\users\\hp\\source\\repos\\tournoi_ad\\backend\\equipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F5B78C-9566-4279-AE0E-7E2FEFF5CF37}|GestionTournoi.csproj|solutionrelative:backend\\equipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chronometre.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Chronometre.cs",
+              "RelativeDocumentMoniker": "Backend\\Chronometre.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Chronometre.cs",
+              "RelativeToolTip": "Backend\\Chronometre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T11:53:22.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Frontend\\AdminForm.cs",
+              "RelativeDocumentMoniker": "Frontend\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Frontend\\AdminForm.cs",
+              "RelativeToolTip": "Frontend\\AdminForm.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAqwI0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:55:31.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Seed.cs",
+              "RelativeDocumentMoniker": "Backend\\Seed.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Seed.cs",
+              "RelativeToolTip": "Backend\\Seed.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T11:51:22.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JoueurForm.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Frontend\\JoueurForm.cs",
+              "RelativeDocumentMoniker": "Frontend\\JoueurForm.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Frontend\\JoueurForm.cs",
+              "RelativeToolTip": "Frontend\\JoueurForm.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAkwOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:55:43.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Equipe.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Equipe.cs",
+              "RelativeDocumentMoniker": "Backend\\Equipe.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Equipe.cs",
+              "RelativeToolTip": "Backend\\Equipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:55:14.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tournoi.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Tournoi.cs",
+              "RelativeDocumentMoniker": "Backend\\Tournoi.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Tournoi_ad\\Backend\\Tournoi.cs",
+              "RelativeToolTip": "Backend\\Tournoi.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwGkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T09:33:29.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
