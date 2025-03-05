@@ -12,6 +12,7 @@ namespace GestionTournoi.Backend
         private string NomTournoi { get; set; } = "";
         private int NbJoueursMin { get; set; }
 
+        public Chronometre chrono { get; set; } = new Chronometre();
         private List<Equipe> _equipes { get; set; } = new List<Equipe>();
         private List<Joueur> joueurs { get; set; } = new List<Joueur>();
 
@@ -21,7 +22,11 @@ namespace GestionTournoi.Backend
         private readonly HashSet<IObserver<NotificationTournoi>> _observateurs = new();
         // Une liste des notifications
         private readonly HashSet<NotificationTournoi> _notifications = new();
-        private Tournoi() { }
+        private Tournoi() {
+            chrono.OnTick += UpdateChronoDisplay;
+            chrono.OnTimeUp += FinishRegistrations;
+            chrono.Start(1000, new TimeSpan(0, 2,0 ));
+        }
 
         
 
@@ -155,6 +160,28 @@ namespace GestionTournoi.Backend
                 }
             }
             return new Unsubscriber<NotificationTournoi>(_observateurs, observateur);
+        }
+        private void UpdateChronoDisplay(string tempsRestant)
+        {
+            Trace.WriteLine($"Temps restant : {tempsRestant}");
+        }
+
+        private void FinishRegistrations()
+        {
+            var equipesNonCompletes = _equipes.Where(e => !e.IsReady).ToList();
+
+            foreach (var equipe in equipesNonCompletes)
+            {
+                _equipes.Remove(equipe);
+           
+                foreach (var observateur in _observateurs)
+                {
+                    NotificationTournoi notif = new NotificationTournoi { Equipe = equipe, Type = NotificationTournoiType.NewTeam, };
+                    observateur.OnNext(notif);
+                }
+            }
+
+            Trace.WriteLine("Inscriptions terminées. Tournoi prêt à commencer.");
         }
 
     }

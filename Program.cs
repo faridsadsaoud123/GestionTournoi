@@ -16,7 +16,7 @@ namespace GestionTournoi
             ApplicationConfiguration.Initialize();
 
             // Chargement de données par défaut
-            //Seed.SeedData();
+            Seed.SeedData();
             // Lancement du frontend
             Application.Run(new Form1());
         }

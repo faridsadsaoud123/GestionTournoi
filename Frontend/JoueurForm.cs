@@ -72,7 +72,6 @@ namespace GestionTournoi.Frontend
             else
             {
                 {
-                    equipe.IsReady = true;
                     labelErreurNomEquipe.ForeColor = Color.Green;
                     labelErreurNomEquipe.Text = "Equipe numéro " + equipe.id + " créée!!";
                     labelErreur.ForeColor = Color.Red;
